@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({
     >
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <img className="w-14" src="/logo.png" alt="logo" />
+          <img className="w-14" src="logo.png" alt="logo" />
         </div>
         <div className="hidden md:flex items-center space-x-6">
           {["home", "about", "menu"].map((section) => (
