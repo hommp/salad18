@@ -5,15 +5,15 @@ export const PRODUCTS: Product[] = [
     name: "Soup Buah",
     price: "10K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Kombinasi segar buah-buahan pilihan dengan kuah ringan yang menyegarkan, ideal sebagai pencuci mulut sehat.",
     image: "sopbuah.jpg",
     tags: ["dessert"],
   },
   {
-    name: "Heatly Cendol",
+    name: "Healthy Cendol",
     price: "10K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Cendol sehat dengan bahan alami yang menyuguhkan rasa manis alami dan kesegaran khas tradisi Indonesia.",
     image: "healthycendol.jpg",
     tags: ["dessert"],
   },
@@ -21,7 +21,7 @@ export const PRODUCTS: Product[] = [
     name: "Creamy Avosago",
     price: "15K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Paduan krim alpukat dan sagu yang lezat, menawarkan tekstur lembut dan rasa yang menyehatkan.",
     image: "creamyavosago.jpg",
     tags: ["dessert"],
   },
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     name: "Mango Sago",
     price: "15K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Kombinasi mangga segar dan sagu lembut yang memberikan sensasi manis alami dalam setiap suapan.",
     image: "mangosago.jpg",
     tags: ["dessert"],
   },
@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     name: "Almond Milk",
     price: "20K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Susu almond dengan tekstur lembut dan cita rasa khas, alternatif sehat untuk segala usia.",
     image: "almondmilk.jpg",
     tags: ["dessert"],
   },
@@ -46,7 +46,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Wrap Grilled Chicken Original Dressing",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Wrap salad dengan ayam panggang empuk, dilengkapi dressing original yang kaya rasa dan bergizi.",
     image: "saladwrap.jpg",
     tags: ["saladwarp"],
   },
@@ -54,7 +54,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Wrap Grilled Chicken Blackpepper Dressing",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Wrap salad dengan ayam panggang yang dipadu dengan dressing lada hitam pedas, cocok untuk pencinta rasa kuat.",
     image: "saladwrap.jpg",
     tags: ["saladwarp"],
   },
@@ -62,7 +62,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Wrap Chicken Katsu Original Dressing",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Wrap salad dengan ayam katsu renyah, dilengkapi dressing original lembut yang memadukan rasa dan tekstur.",
     image: "saladwrap.jpg",
     tags: ["saladwarp"],
   },
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Wrap Chicken Katsu Blackpepper Dressing",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Wrap salad dengan ayam katsu renyah, berpadu dengan dressing lada hitam yang gurih dan sedikit pedas.",
     image: "saladwrap.jpg",
     tags: ["saladwarp"],
   },
@@ -79,7 +79,7 @@ export const PRODUCTS: Product[] = [
     name: "Ricebox Chicken Salted Egg (Jumbo Only)",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Nasi kotak dengan ayam dan saus telur asin kaya rasa, eksklusif untuk porsi jumbo yang memuaskan.",
     image: "ricebox.jpg",
     tags: ["ricebox"],
   },
@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     name: "Ricebox Chicken Sambal Matah",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Nasi kotak ayam dengan sambal matah segar, memberikan perpaduan rasa pedas dan asam yang khas.",
     image: "ricebox.jpg",
     tags: ["ricebox"],
   },
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
     name: "Ricebox Chicken Blackpapper",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Nasi kotak ayam dengan saus lada hitam yang menggugah selera, sempurna untuk pencinta rasa tajam.",
     image: "ricebox.jpg",
     tags: ["ricebox"],
   },
@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
     name: "Ricebox Chicken Curry",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Nasi kotak ayam dengan kuah kari rempah yang kaya, menghadirkan kehangatan dan cita rasa mendalam.",
     image: "ricebox.jpg",
     tags: ["ricebox"],
   },
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Buah Mini",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Salad buah mini dengan potongan buah segar, cocok sebagai pencuci mulut ringan yang menyegarkan.",
     image: "saladkecil.jpg",
     tags: ["saladbuah"],
   },
@@ -119,7 +119,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Buah Medium",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Salad buah berukuran sedang dengan aneka potongan buah segar yang penuh vitamin dan kesegaran.",
     image: "saladsedang.jpg",
     tags: ["saladbuah"],
   },
@@ -127,7 +127,7 @@ export const PRODUCTS: Product[] = [
     name: "Salad Buah Larage",
     price: "35K",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Salad buah berukuran besar dengan pilihan buah premium, ideal untuk berbagi kebaikan di setiap momen spesial.",
     image: "saladbesar.jpg",
     tags: ["saladbuah"],
   },
